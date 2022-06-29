@@ -2,6 +2,7 @@
 
 body {
   background-image: url('../public/imgs/front_page_background.gif');
+  background-repeat: none;
   background-size: cover;
   font-family: "Nunito Sans";
 }
@@ -17,21 +18,7 @@ a:hover{
 
 
 
-nav{
-  margin: 10px auto 80px;
-  padding: 10px 0;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  background-color: white;
-}
 
-nav a{
-  margin-left:12px;
-}
-nav.logo{
-  margin-right:auto;
-}
 
 footer{
   display:block;
