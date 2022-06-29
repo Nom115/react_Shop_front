@@ -1,0 +1,7 @@
+.landingImage{
+    z-index: 0;
+  }
+  
+  .landingText{
+    z-index: 1;
+  }
