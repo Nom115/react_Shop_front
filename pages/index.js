@@ -7,7 +7,7 @@ export default function Home() {
 
       <div className="row m-5">
         <div className="col">
-          <Category img_src = "/../public/imgs/male_card.jpg" card_title="Mens"/>
+          <Category href="/mens" img_src = "/../public/imgs/male_card.jpg" card_title="Mens" />
         </div>
         <div className="col">
           <Category img_src = "/../public/imgs/male_card.jpg" card_title="Mens"/>
