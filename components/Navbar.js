@@ -1,9 +1,11 @@
 import Link from 'next/link'
 
+
 export default function Navbar() {
     return (
-    <nav className="navbar fixed-top navbar-expand-lg bg-dark navbar-dark shadow-lg p-3 mb-5 rounded">
+    <nav className="navbar fixed-top navbar-expand-lg bg-white navbar-black shadow-lg p-3 mb-5 rounded">
         <div className="container">
+            <img src="../public/imgs/big_boss_fashion_logo.gif" alt="Big Boss Fashion Logo"></img>
             <Link href="/">
             <a className="navbar-brand header_text">
                 Big Boss Fashion

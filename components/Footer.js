@@ -1,7 +1,11 @@
 export default function Footer() {
     return (
-        <footer>
-            Copyright 2022
+        <footer className="bg-light text-center">
+        
+            <div className="text-center p-3">
+                I am a footer
+            </div>
+  
         </footer>
     )
 }
