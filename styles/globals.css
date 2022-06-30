@@ -22,4 +22,10 @@ footer{
 
 }
 
+.card{
+  display: block;
+}
 
+.card:hover{
+  transform: 1.2;
+}
